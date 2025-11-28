@@ -1,0 +1,3 @@
+- ARCHITECTURE.md or similar
+- Feature: Admin can ban users
+- Research: Cache for the search or how to not hit the quotas of Supabase?
