@@ -115,7 +115,22 @@ Reusable methodologies, checklists, and best practices. **Contributions welcome!
 - Download, install, and test **Google Antigravity**
 - Use Antigravity to generate/assist with the **first features** of the app
 
-#### Episode 2 - TBD
+#### Episode 2 - AI Coding Rules; Google Antigravity; Supabase: Authentication
+
+**Focus:**
+- Define **AI Coding Rules** to control agent behavior:
+  - Enforcing implementation plans
+  - Preventing hallucinations
+- Create and enforce the **Architecture Documentation** (`ARCHITECTURE.md`) as a source of truth
+- Implement **Supabase Authentication**:
+  - Email/Password flows (Sign up, Sign in)
+  - Handling auth callbacks and email confirmation
+  - Integrating **Twitch OAuth**
+- Explore **Google Antigravity** features:
+  - Setting up `.agent/rules`
+  - Creating custom **Workflows** to automate documentation updates
+
+#### Episode 3 - TBD
 
 </details>
 
