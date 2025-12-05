@@ -130,7 +130,26 @@ Reusable methodologies, checklists, and best practices. **Contributions welcome!
   - Setting up `.agent/rules`
   - Creating custom **Workflows** to automate documentation updates
 
-#### Episode 3 - TBD
+#### Episode 3 - Supabase: ACL, Database & Vector Search; Google Antigravity;
+
+**Focus:**
+- Refine AI Coding Rules:
+  - Add rules for "Feature Planning Notes" and Architecture updates
+  - Integrate the PRD into the agent's context
+- Implement Access Control Level (ACL):
+  - Role-based middleware to protect Admin routes
+  - Using Supabase `app_metadata` to manage Admin roles
+  - Gated UI access (hiding Admin menus for non-admins)
+- Build Topic Management with Realtime updates:
+  - Create "Add Topic" workflow
+  - Implement Supabase Realtime for instant list updates
+  - Refactor logic into a Service Layer pattern
+- Implement Vector Search:
+  - Generate embeddings for topics using OpenAI API
+  - Store vectors in Supabase (using `pgvector`)
+  - Create a "Pre-insert Search" to find similar topics via vector similarity
+
+#### Episode 4 - TBD
 
 </details>
 
