@@ -1,11 +1,7 @@
 Now
-- [ ] Upgrade React to safe version
-- [ ] Add "Create Proposal" feature
-- [ ] Add "Search" feature for Proposals during creation
-- [ ] Add "Remove Proposal" feature
 - [ ] Add "Vote" / "Unvote"
 - [ ] Add "Approve Proposal" feature for admin that resolves the "Topic"
-- [ ] Add rate limits
+- [ ] Add rate limits: embeddings, proposals, etc.
 - [ ] Deploy
 - [ ] Change design to something more user friendly and browseable
 
@@ -21,3 +17,7 @@ Done
 - [x] Add `admin` role support for users with gated access to admin panel
 - [x] Add "Create Topic" feature
 - [x] Add "Search" feature for Topics during creation
+- [x] Upgrade React to safe version
+- [x] Add "Create Proposal" feature
+- [x] Add "Search" feature for Proposals during creation
+- [x] Add "Remove Proposal" feature

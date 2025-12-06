@@ -149,7 +149,27 @@ Reusable methodologies, checklists, and best practices. **Contributions welcome!
   - Store vectors in Supabase (using `pgvector`)
   - Create a "Pre-insert Search" to find similar topics via vector similarity
 
-#### Episode 4 - TBD
+#### Episode 4 - React Server Components Hacked; Supabase Vector Search; Google Antigravity;
+
+**Focus:**
+- Address critical React Server Components (RSC) Vulnerability:
+  - Identify Remote Code Execution (RCE) risk in current version
+  - Upgrade React and Next.js packages to patch the security hole
+- Connect Dashboard to Real Data:
+  - Replace mock UI data with live Supabase fetching
+  - Implement real-time UI updates for new topics
+- Implement Vector Search for Proposals:
+  - Generate OpenAI embeddings for new proposals
+  - Detect and prevent duplicate submissions via semantic similarity
+  - Tune similarity thresholds to balance strictness
+- Troubleshooting AI & Database Migrations:
+  - Recover from corrupted migration history (AI modified applied migrations)
+  - Enforce "never modify applied migrations" rule
+- Implement Service Role Admin Client:
+  - Resolve Row Level Security (RLS) errors on archive actions
+  - Create a secure server-side client to bypass RLS for privileged operations
+
+#### Episode 5 - TBD
 
 </details>
 
