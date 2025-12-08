@@ -1,11 +1,8 @@
-Now
-- [ ] Add "Vote" / "Unvote"
-- [ ] Add "Approve Proposal" feature for admin that resolves the "Topic"
-- [ ] Add rate limits: embeddings, proposals, etc.
-- [ ] Deploy
-- [ ] Change design to something more user friendly and browseable
-
 Later
+- [ ] Reset password functionality (from UI / admin panel)
+- [ ] Ratelimit: Supabase: Database Size, Egress
+- [ ] Backups
+- [ ] Change design to something more user friendly and browseable
 - [ ] Mobile layout
 - [ ] Change the sign up confirmation email layout to something beautiful
 - [ ] Feature: Admin can ban users
@@ -21,3 +18,10 @@ Done
 - [x] Add "Create Proposal" feature
 - [x] Add "Search" feature for Proposals during creation
 - [x] Add "Remove Proposal" feature
+- [x] Add "Vote" / "Unvote"
+- [x] Add "Approve Proposal" feature for admin that resolves the "Topic"
+- [x] Fix admin action "Archive Topic"
+- [x] Fix "Vote" functionality on the similar proposals window
+- [x] Research: Rate limits: embeddings, proposals, etc.
+- [x] Ratelimit: OpenAI (limit embeddings generation): per-user rate limit: Use Cloudflare internal rate limiter for embeddings generation
+- [x] Deploy
