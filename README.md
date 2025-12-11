@@ -169,7 +169,28 @@ Reusable methodologies, checklists, and best practices. **Contributions welcome!
   - Resolve Row Level Security (RLS) errors on archive actions
   - Create a secure server-side client to bypass RLS for privileged operations
 
-#### Episode 5 - TBD
+#### Episode 5 - Finish functionality; Rate limits; Deployment to Cloudflare; Google Antigravity;
+
+**Focus:**
+- Complete Core Functionality:
+  - Implement Vote & Unvote logic (using soft deletes to preserve data)
+  - Enforce database integrity with unique indexes (preventing duplicate votes)
+  - Fix critical UI interactions (Vote button triggering form submissions)
+- Build Admin Resolution Workflow:
+  - Create "Manage Topic" interface for Admins
+  - Implement "Resolve Topic" logic: Approve winning proposals and Close the topic simultaneously
+  - Lock down closed topics to prevent further edits or submissions
+- Implement Security & Rate Limits:
+  - Analyze abuse vectors (OpenAI Embeddings costs, Supabase limits)
+  - Integrate Cloudflare Rate Limiter bindings
+  - Apply rate limiting specifically to the Embeddings generation to prevent API cost overruns
+- Production Deployment to Cloudflare:
+  - Configure the Next.js app for Cloudflare Workers using OpenNext
+  - Setup Wrangler for deployment management and secret handling
+  - Manage production environment variables (Supabase keys, OpenAI keys)
+  - Go Live: First successful deployment to a public URL
+
+#### Episode 6 - TBD
 
 </details>
 
