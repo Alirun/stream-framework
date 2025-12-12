@@ -1,21 +1,17 @@
 Today
-- [ ] Research how redirect links work: confirmation, reset, etc.
-- [ ] Use /auth/callback for normal login to use ?code and apply session directly || OR Redirect user to log in page after sign up
-- [ ] Sign in with Web3
-- [ ] Test functionality and fill the todo list
-- [ ] Reset password functionality (from UI / admin panel)
-- [ ] Only allow confirmed users to log in
-- [ ] Confirmation email template
+- [ ] Feature: Search
 
 Later
 - [ ] Connect SMTP server (resend.com)
+- [ ] Change design to something more user friendly and browseable
+- [ ] Mobile layout
+- [ ] Feature: Admin: List users
+- [ ] Feature: Admin: Ban users
 - [ ] SEO stuff
 - [ ] Ratelimit: Supabase: Database Size, Egress
 - [ ] Backups
-- [ ] Change design to something more user friendly and browseable
-- [ ] Mobile layout
-- [ ] Feature: Admin can ban users
-- [ ] Research: Cache for the search or how to not hit the quotas of Supabase?
+- [ ] Feature: Downvote (add new prop to Vote table)
+- [ ] Feature: Generate random and deterministic avatars and usernames with animals
 
 Done
 - [x] ARCHITECTURE.md or similar
@@ -36,3 +32,11 @@ Done
 - [x] Deploy
 - [x] Connect domain
 - [x] Change email confirmation to something more beautiful
+- [x] Only allow confirmed users to log in
+- [x] Research: Cache for the search or how to not hit the quotas of Supabase?
+- [x] Research how redirect links work: confirmation, reset, etc.
+- [x] Use /auth/callback for normal login to use ?code and apply session directly || OR Redirect user to log in page after sign up
+- [x] Sign in with Web3
+- [x] Reset password functionality (from UI / admin panel)
+- [x] Test functionality and fill the todo list
+- [x] Upgrade React to safe version again
