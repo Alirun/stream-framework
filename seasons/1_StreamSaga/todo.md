@@ -1,17 +1,17 @@
 Today
-- [ ] Feature: Search
-
-Later
-- [ ] Connect SMTP server (resend.com)
 - [ ] Change design to something more user friendly and browseable
 - [ ] Mobile layout
+- [ ] Feature: Search
+- [ ] SEO: Change content: description, keywords, etc. Connect it explicitly to our stream now and make cross-reference
+- [ ] SEO: Add OG, twitter images
+- [ ] SEO: Add the analytics + cookies banner
+
+Later
+- [ ] Feature: Downvote (add new prop to Vote table)
 - [ ] Feature: Admin: List users
 - [ ] Feature: Admin: Ban users
-- [ ] SEO stuff
 - [ ] Ratelimit: Supabase: Database Size, Egress
 - [ ] Backups
-- [ ] Feature: Downvote (add new prop to Vote table)
-- [ ] Feature: Generate random and deterministic avatars and usernames with animals
 
 Done
 - [x] ARCHITECTURE.md or similar
@@ -40,3 +40,9 @@ Done
 - [x] Reset password functionality (from UI / admin panel)
 - [x] Test functionality and fill the todo list
 - [x] Upgrade React to safe version again
+- [x] Connect SMTP server (resend.com)
+- [x] Feature: Sorting of the proposals on the Topic page
+- [x] Feature: Select the topic automatically when creating a proposal
+- [x] Feature: Generate random and deterministic avatars and usernames with animals
+- [x] Bug: Sign in to propose
+- [x] SEO stuff
