@@ -190,7 +190,64 @@ Reusable methodologies, checklists, and best practices. **Contributions welcome!
   - Manage production environment variables (Supabase keys, OpenAI keys)
   - Go Live: First successful deployment to a public URL
 
-#### Episode 6 - TBD
+#### Episode 6 - Testing, fixing bugs and tech debt with Supabase, Cloudflare and Antigravity;
+
+**Focus:**
+- Production Domain Setup:
+  - Connect custom domain (streamsaga.space) via Cloudflare
+  - Update Wrangler configuration (wrangler.toml) for production routes and DNS management
+- Full System Reset & Testing:
+  - Wipe Supabase database to validate the complete user onboarding flow from scratch
+  - Identify critical bugs in the sign-up process (broken redirects, confusing UX)
+- Debugging Cloudflare & Supabase Auth:
+  - Troubleshoot email confirmation links incorrectly redirecting to localhost
+  - Deep dive into Cloudflare Worker logs (Observability, wrangler tail, structured logging) to trace request headers
+  - Configure Supabase SITE_URL and redirect allow-lists to support specific production environments
+  - Resolve environment variable conflicts between local development and production builds
+- UX Polish:
+  - Replace default "ugly" Supabase email templates with custom, professionally designed HTML templates
+  - Fix post-signup redirection logic to ensure users land on the correct login/dashboard pages
+
+#### Episode 7 - Testing, fixing bugs and tech debt with Supabase, Cloudflare and Antigravity;
+
+**Focus:**
+- Authentication Polish & Web3 Integration:
+  - Fix email confirmation redirects to ensure users are automatically logged in upon verification
+  - Implement "Sign in with Ethereum" using Supabase Auth and MetaMask
+  - Handle wallet-only user sessions and verify database integrity for users without emails
+- Complete Password Reset Architecture:
+  - Build the full "Forgot Password" and "Update Password" UI flows
+  - Implement server-side actions to handle secure password recovery
+  - Apply custom HTML styling to the password reset email templates
+- Critical Security & Maintenance:
+  - Perform urgent upgrade of React and Next.js to patch newly discovered security vulnerabilities
+  - Audit dependencies to ensure a clean security state before production use
+- Admin Features & UI Refinement:
+  - Implement logic to Close and Archive topics in the Admin panel
+  - Switch global date formatting to relative time (e.g., "2 hours ago") for better UX
+  - Conduct full end-to-end testing of the application (User and Admin roles)
+
+#### Episode 8 - Testing, fixing bugs and tech debt with Supabase, Cloudflare and Antigravity;
+
+**Focus:**
+- Infrastructure & Email Reliability:
+  - Bypass Supabase default email rate limits by integrating Resend as a custom SMTP server
+  - Configure essential DNS records (MX, SPF, DKIM) for the streamsaga.space domain to ensure deliverability
+  - Troubleshoot spam classification and URL mismatch issues in password reset flows
+- User Identity & Experience:
+  - Implement a Deterministic Identity System to replace raw User IDs/Emails in the UI
+  - Generate consistent, "fun" usernames (e.g., "Plasma Circuit") and unique avatars for every user based on their ID
+  - Build Auth Guardian middleware to redirect unauthenticated users when accessing protected actions (like "Submit Proposal")
+- Feature Completion & Optimization:
+  - Activate "Top" and "Newest" sorting logic for proposals
+  - Refactor Sorting Logic: Move from inefficient database queries to client-side sorting to reduce DB read costs
+  - Fix UX bugs: Auto-select the correct topic when navigating to submission forms
+- SEO & Production Polish:
+  - Implement standard SEO files: robots.txt and dynamic sitemap.xml
+  - Add dynamic page titles and description metadata
+  - Dashboard Redesign: Restructure UI into a "tree view" and move Search to the global header (wip)
+
+#### Episode 9 - Season Finale: TBD
 
 </details>
 
