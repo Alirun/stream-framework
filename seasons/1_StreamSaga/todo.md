@@ -1,12 +1,8 @@
 Today
-- [ ] Change design to something more user friendly and browseable
-- [ ] Mobile layout
-- [ ] Feature: Search
-- [ ] SEO: Change content: description, keywords, etc. Connect it explicitly to our stream now and make cross-reference
-- [ ] SEO: Add OG, twitter images
-- [ ] SEO: Add the analytics + cookies banner
+
 
 Later
+- [ ] Fix: Search on mobile works well, shows only the results, allows to browse them without loosing the search result; Do that for desktop;
 - [ ] Feature: Downvote (add new prop to Vote table)
 - [ ] Feature: Admin: List users
 - [ ] Feature: Admin: Ban users
@@ -46,3 +42,9 @@ Done
 - [x] Feature: Generate random and deterministic avatars and usernames with animals
 - [x] Bug: Sign in to propose
 - [x] SEO stuff
+- [x] Change design to something more user friendly and browseable
+- [x] Mobile layout
+- [x] Feature: Search
+- [x] SEO: Change content: description, keywords, etc. Connect it explicitly to our stream now and make cross-reference
+- [x] SEO: Add OG, twitter images
+- [x] SEO: Add the analytics + cookies banner
