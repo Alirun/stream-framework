@@ -3,6 +3,12 @@
 > Building real things live — one season at a time.
 
 [![GitHub](https://img.shields.io/badge/GitHub-StreamSaga-blue?logo=github)](https://github.com/Alirun/StreamSaga)
+[![Twitch](https://img.shields.io/badge/Twitch-ali__run-9146FF?logo=twitch&logoColor=white)](https://twitch.tv/ali_run)
+[![YouTube](https://img.shields.io/badge/YouTube-@ali__run-FF0000?logo=youtube&logoColor=white)](https://youtube.com/@ali_run)
+[![Kick](https://img.shields.io/badge/Kick-ali--run-05FF00?logo=kick&logoColor=black)](https://kick.com/ali-run)
+
+**Watch live on [Twitch](https://twitch.tv/ali_run), [YouTube](https://youtube.com/@ali_run), or [Kick](https://kick.com/ali-run)** 🚀
+*All social links & more: [linktr.ee/ali_run](https://linktr.ee/ali_run)*
 
 This repo documents how the stream is structured: seasons, episodes, and the "frameworks" we use to build real things live.
 
@@ -16,6 +22,7 @@ This repo documents how the stream is structured: seasons, episodes, and the "fr
 - [Frameworks](#-frameworks)
 - [Seasons](#-seasons)
   - [Season 1 - StreamSaga](#season-1---streamsaga)
+- [Connect](#-connect)
 - [Quick Links](#-quick-links)
 
 ---
@@ -278,10 +285,25 @@ Season 2 will be a new project, chosen later (possibly via StreamSaga once it's 
 
 ---
 
+## 🔗 Connect
+
+Stay updated and join the live builds:
+
+- � **Twitch:** [twitch.tv/ali_run](https://twitch.tv/ali_run)
+- 📺 **YouTube:** [youtube.com/@ali_run](https://youtube.com/@ali_run)
+- 🟢 **Kick:** [kick.com/ali-run](https://kick.com/ali-run)
+- 🌳 **Linktree:** [linktr.ee/ali_run](https://linktr.ee/ali_run) (All social links)
+
+---
+
 ## 🔗 Quick Links
 
 | Resource | Link |
 |----------|------|
+| 🎮 Twitch | [twitch.tv/ali_run](https://twitch.tv/ali_run) |
+| 📺 YouTube | [youtube.com/@ali_run](https://youtube.com/@ali_run) |
+| 🟢 Kick | [kick.com/ali-run](https://kick.com/ali-run) |
+| 🌳 Linktree (Socials) | [linktr.ee/ali_run](https://linktr.ee/ali_run) |
 | 🚀 StreamSaga Project | [github.com/Alirun/StreamSaga](https://github.com/Alirun/StreamSaga) |
 | 📝 Season 1 PRD | [seasons/1_StreamSaga/prd.md](./seasons/1_StreamSaga/prd.md) |
 | ✅ Season 1 TODO | [seasons/1_StreamSaga/todo.md](./seasons/1_StreamSaga/todo.md) |
