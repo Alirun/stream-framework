@@ -1,6 +1,3 @@
-Today
-
-
 Later
 - [ ] Fix: Search on mobile works well, shows only the results, allows to browse them without loosing the search result; Do that for desktop;
 - [ ] Feature: Downvote (add new prop to Vote table)
