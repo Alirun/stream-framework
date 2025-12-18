@@ -249,6 +249,25 @@ Reusable methodologies, checklists, and best practices. **Contributions welcome!
 
 #### Episode 9 - Season Finale: TBD
 
+**Focus:**
+- Final UI Polish & Search Implementation:
+  - Re-implement the Global Search feature (previously cut) to find topics and proposals.
+  - Fix Sidebar navigation bugs to maintain active state on selected topics.
+  - Optimize mobile layout responsiveness for smaller screens.
+- Performance Optimization:
+  - Audit and refactor data fetching to eliminate redundant network requests.
+  - Improve application speed and reduce server load before final launch.
+- SEO & Social Infrastructure:
+  - Build dynamic Open Graph (OG) image generation for rich social media previews.
+  - Ensure shared links on X/Twitter and LinkedIn display custom branding and context.
+- Privacy-First Analytics:
+  - Integrate Rybit to track user metrics without requiring GDPR cookie consent banners.
+  - Verify live traffic tracking on the production environment.
+- Deployment & Season 2 Announcement:
+  - Successfully deploy the finalized StreamSaga application to production (streamsaga.space).
+  - Reveal Season 2 Roadmap: Building a PolyMarket Trading Bot.
+  - Outline goals for Season 2: Reverse engineering APIs, automated market making, and Web3 integration.
+
 </details>
 
 ---
